@@ -31,6 +31,12 @@
               <li class="nav-item">
                 <a class="nav-link" href="/articles">Artikel</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/categories">Kategori</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/authors">Penulis</a>
+              </li>
             </ul>
           </div>
         </div>

@@ -11,7 +11,8 @@ class UserController extends Controller
         return view('authors', [
             "name" => "Abidjanna Zulfa Hamdika",
             "email" => "hufahamdika7997@gmail.com",
-            "author" => User::latest()->get()
+            "title" => "Penulis",
+            "authors" => User::latest()->get()
         ]);
     }
 

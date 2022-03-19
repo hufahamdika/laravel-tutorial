@@ -120,5 +120,5 @@ Route::get('/articles/{article:slug}', [ArticleController::class, 'contents']);
 Route::get('categories/', [CategoryController::class, 'index']);
 Route::get('categories/{category:slug}', [CategoryController::class, 'contents']);
 
-//Route::get('categories/', [CategoryController::class, 'index']);
+Route::get('authors/', [UserController::class, 'index']);
 Route::get('authors/{author:username}', [UserController::class, 'contents']);
